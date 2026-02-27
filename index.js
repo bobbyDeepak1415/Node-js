@@ -1,11 +1,9 @@
 function program1() {
   console.log("from 1");
-  program2();
 }
 
 function program2() {
   console.log("from 2");
-  program3();
 }
 
 function program3() {
@@ -13,3 +11,6 @@ function program3() {
 }
 
 program1();
+program2();
+
+program3();
