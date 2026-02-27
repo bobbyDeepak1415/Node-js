@@ -18,9 +18,9 @@
 
 // console.log(age)
 
-let age=30
+let city
 
 
-const city="Bengaluru"
+city="delhi"
+
 console.log(city)
-
