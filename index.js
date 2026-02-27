@@ -17,5 +17,6 @@
 
 
 console.log(name);
+console.log(age)
 
-var name = "Hello bruv";
+let age=30
