@@ -16,7 +16,11 @@
 
 
 
-console.log(name);
-console.log(age)
+// console.log(age)
 
 let age=30
+
+
+const city="Bengaluru"
+console.log(city)
+
