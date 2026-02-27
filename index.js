@@ -14,13 +14,9 @@
 // program2();
 // program3();
 
-
-
 // console.log(age)
 
-let city
+ var sign;
+sign="Leo"
 
-
-city="delhi"
-
-console.log(city)
+console.log(sign);
