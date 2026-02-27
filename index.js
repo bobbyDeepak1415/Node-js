@@ -14,6 +14,8 @@
 // program2();
 // program3();
 
-console.log(myVar);
 
-let myVar = "Hello bruv";
+
+console.log(name);
+
+var name = "Hello bruv";
