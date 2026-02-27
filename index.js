@@ -1,22 +1,20 @@
-// function program1() {
-//   console.log("from 1");
-// }
+function program1() {
+  console.log("from 1");
+  program2();
+  
+}
 
-// function program2() {
-//   console.log("from 2");
-// }
+function program2() {
+  console.log("from 2");
+  program3();
 
-// function program3() {
-//   console.log("from 2");
-// }
+}
 
-// program1();
-// program2();
-// program3();
+function program3() {
+  console.log("from 3");
+}
 
-// console.log(age)
+program1();
 
- var sign;
-sign="Leo"
 
-console.log(sign);
+
