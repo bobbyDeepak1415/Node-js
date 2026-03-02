@@ -18,15 +18,9 @@
 var first = () => {
   console.log("first");
 
-  return (second = () => {
+  return () => {
     console.log("second");
-
-    return (third = () => {
-      console.log("third");
-      second()
-    });
-  });
-
+  };
 };
 
-first()
+first();
