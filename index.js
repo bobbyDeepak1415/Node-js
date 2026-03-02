@@ -15,5 +15,3 @@
 
 // program3();
 
-
-console.log("hello")
