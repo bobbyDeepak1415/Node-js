@@ -16,8 +16,5 @@
 // program3();
 
 
-console.log(myVar)
-
-const myVar="bobby"
 
 
