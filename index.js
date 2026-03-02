@@ -15,8 +15,9 @@
 
 // program3();
 
-second(4, 5);
 
-function second(a, b) {
-  console.log(a + b);
-}
+console.log(myVar)
+
+const myVar="bobby"
+
+
