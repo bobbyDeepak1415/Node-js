@@ -13,22 +13,15 @@
 // program1();
 // program2();
 
+
 // program3();
 
-var first = () => {
-  console.log("first");
 
-  function second() {
-    console.log("second");
 
-    function third() {
-      console.log("third");
-    }
-
-    third();
-  }
-
-  second();
+function first ()  {
+    console.log("first");
 };
 
 
+
+first()
