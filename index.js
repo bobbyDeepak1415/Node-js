@@ -15,3 +15,16 @@
 
 // program3();
 
+
+
+
+var first=()=>{
+    
+    console.log("first")
+
+ return second=()=>{
+        console.log('second')
+    }
+}
+
+first()()
