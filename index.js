@@ -13,15 +13,17 @@
 // program1();
 // program2();
 
-
 // program3();
 
 
+second()
 
-function first ()  {
-    console.log("first");
-};
+function second(){
+    first(3,7)
+}
 
 
 
-first()
+function first(a, b) {
+  console.log(a + b);
+}
