@@ -15,15 +15,8 @@
 
 // program3();
 
+second(4, 5);
 
-second()
-
-function second(){
-    first(3,7)
-}
-
-
-
-function first(a, b) {
+function second(a, b) {
   console.log(a + b);
 }
