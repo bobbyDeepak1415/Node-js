@@ -1,13 +1,3 @@
-let str = "AAABBCDDAB";
+let str = "the line has the largest wordjcbebje in it";
 
-function display(str) {
-  let result = "";
-
-  let obj = {};
-  let arr = str.split("");
-  for (let i of arr) {
-    obj[i] = (obj[i] || 0) + 1;
-  }
-}
-
-console.log(display(str));
+console.log(str.split(" ").reduce((a, b) => (a.length > b.length ? a : b)));
