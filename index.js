@@ -14,13 +14,3 @@
 // program2();
 
 // program3();
-
-const obj1 = {
-  fName: "Bobby",
-  lName: "Deepak",
-  printName: () => {
-    console.log(this.fName +this.lName);
-  },
-};
-
-console.log(obj1.printName())
