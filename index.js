@@ -1,14 +1,16 @@
+const obj1 = {
+  fName: "Bobby",
+  lName: "Deepak",
+  city: "ongole",
+  state: "AP",
+  printName(city, state) {
+    console.log(`${this.fName} ${this.lName} is from ${city} in ${state}`);
+  },
+};
 
+const obj2 = {
+  fName: "Leo",
+  lName: "King",
+};
 
-const obj1={
-    fName:"Bobby",
-    lName:"Deepak"
-}
-
-function printName(){
-    console.log(this.fName+" "+this.lName)
-}
-
-
-printName.call(obj1)
-// console.log("hello")
+obj1.printName.call(obj2, "Bengaluru", "Karnataka");
