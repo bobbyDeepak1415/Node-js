@@ -1,18 +1,13 @@
-const obj1 = {
-  fName: "Bobby",
-  lName: "Deepak",
-  city: "ongole",
-  state: "AP"
-};
-function printName(city,state) {
-  console.log(`${this.fName} ${this.lName} is from ${city} in ${state}`);
+let str = "AAABBCDDAB";
+
+function display(str) {
+  let result = "";
+
+  let obj = {};
+  let arr = str.split("");
+  for (let i of arr) {
+    obj[i] = (obj[i] || 0) + 1;
+  }
 }
 
-const obj2 = {
-  fName: "Leo",
-  lName: "King",
-};
-
-
-printName.call(obj1)
-printName.apply(obj2,["guntur","karnataka"])
+console.log(display(str));
