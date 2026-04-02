@@ -7,9 +7,11 @@ const obj1={
 }
 
 
-const {name,age}=obj1
+const {name}=obj1
+
+const title=obj1.name
 
 console.log(name)
 console.log(age)
 
-// console.log(rest)
+console.log(title)
