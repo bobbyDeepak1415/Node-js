@@ -1,17 +1,9 @@
 
+let arr=[3,3,4,5,6,7,8,8]
 
-const obj1={
-    name:"Bob",
-    age:30,
-    active:true
+
+let obj={}
+
+for(let i=0;i<arr.length;i++){
+    
 }
-
-
-const {name}=obj1
-
-const title=obj1.name
-
-console.log(name)
-console.log(age)
-
-console.log(title)
