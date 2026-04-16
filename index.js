@@ -1,13 +1,22 @@
+let arr = [13, 5, 5, 9, 45, 45, 98];
 
-let arr=[13,5,5,9,45,45,98]
+let result = [];
 
-let result=[]
+let seen=new Set()
 
-
-for(let i of arr){
-    if(!result.includes(i)){
-        result.push(i)
+for (let i of arr) {
+  
+    if(!seen.has(i)){
+        seen.add(i)
     }
+
 }
 
-console.log(result)
+
+for(let i of seen){
+    result.push(i)
+}
+
+
+
+console.log(result);
