@@ -8,14 +8,8 @@ for (let i of str) {
   obj[i] = (obj[i] || 0) + 1;
 }
 
-let seen = new Set();
-
-for (let i of str) {
-  if (seen.has(i)) {
-    result += i + obj[i];
-  } else {
-    seen.add(i);
-  }
+for(let key in obj){
+    result+=key+obj[key]
 }
 
-console.log(result);
+console.log(result)
