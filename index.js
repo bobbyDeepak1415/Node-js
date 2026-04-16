@@ -1,20 +1,21 @@
-let arr = [13, 5, 5, 9, 45, 45, 98];
+let str = "AABKCCCDABJJKJ";
 
-let result = [];
+let result = "";
 
+let obj = {};
 
-
-for(let i=0;i<arr.length;i++){
-    for(let j=0;j<arr.length-1-i;j++){
-if(arr[j]>arr[j+1]){
-    let temp=arr[j]
-    arr[j]=arr[j+1]
-    arr[j+1]=temp
-}
-    }
-
+for (let i of str) {
+  obj[i] = (obj[i] || 0) + 1;
 }
 
+let seen = new Set();
 
-console.log(arr)
+for (let i of str) {
+  if (seen.has(i)) {
+    result += i + obj[i];
+  } else {
+    seen.add(i);
+  }
+}
 
+console.log(result);
